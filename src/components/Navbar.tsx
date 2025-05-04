@@ -11,9 +11,9 @@ export default function Navbar() {
 
       {/* Center: Nav Links */}
       <nav className="space-x-6 hidden md:flex">
-        <Link href="#about" className="text-gray-600 hover:text-black transition">About</Link>
-        <Link href="#services" className="text-gray-600 hover:text-black transition">Services</Link>
-        <Link href="#innovation" className="text-gray-600 hover:text-black transition">Innovation</Link>
+        <Link href="/about" className="text-gray-600 hover:text-black transition">About</Link>
+        <Link href="/services" className="text-gray-600 hover:text-black transition">Services</Link>
+        <Link href="/innovation" className="text-gray-600 hover:text-black transition">Innovation</Link>
       </nav>
 
       {/* Right: Language & Contact */}
